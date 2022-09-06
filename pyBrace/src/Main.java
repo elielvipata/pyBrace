@@ -12,7 +12,13 @@ public class Main {
             throw new RuntimeException(e);
         }
         while(scanner.hasNext()){
+            String line = scanner.nextLine();
+            if(line.contains("{")){
 
+            }
+            if(line.contains("}")){
+
+            }
         }
     }
 }
